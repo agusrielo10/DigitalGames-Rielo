@@ -38,6 +38,10 @@ h4 {
     font-family: 'Roboto', sans-serif;
 }
 
+.animate__bounce {
+    animation-iteration-count: infinite
+}
+
 ol {
     list-style-type: none;
 }
@@ -439,8 +443,94 @@ textarea {
     ;
 }
 
-.galeria_item {
+.galeria_item__ps5 {
     position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.galeria_item__ps5::before {
+    content: "PS5";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #17afd43d ;
+    opacity: value;
+    transform: scale(0);
+    transition: transform 2s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif ;
+    font-style: inherit;
+}
+
+.galeria_item__ps5:hover::before {
+    transform: scale(1) rotate(360deg);
+}
+
+.galeria_item__ps4 {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.galeria_item__ps4::before {
+    content: "PS4";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0c2f6460 ;
+    opacity: value;
+    transform: scale(0);
+    transition: transform 2s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif ;
+    font-style: inherit;
+}
+
+.galeria_item__ps4:hover::before {
+    transform: scale(1) rotate(360deg);
+}
+
+.galeria_item__ps3 {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.galeria_item__ps3::before {
+    content: "PS3";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0c2f6460 ;
+    opacity: value;
+    transform: scale(0);
+    transition: transform 2s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif ;
+    font-style: inherit;
+}
+
+.galeria_item__ps3:hover::before {
+    transform: scale(1) rotate(360deg);
 }
 
 .galeria_imagen {
