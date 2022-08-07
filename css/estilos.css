@@ -553,12 +553,12 @@ textarea {
 
     .imagenesPsLinea img {
         width: 60vw;
-        height: 50vh;
+        height: 70vh;
     }
 
     .fotoPs img {
         width: 60vw;
-        height: 50vh;
+        height: 70vh;
         display: flex;
         justify-content: space-around;
     }
