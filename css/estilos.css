@@ -62,23 +62,38 @@ ul {
     grid-area: "header";
 }
 
-.link {
+.nav-bar {
     font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: oblique;
     color: black;
-    background-color: #ba90ee;
+    background-color: #ba90ee1e;
     margin: auto;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 2%;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-decoration: none;
     position: relative;
 }
 
-.link::after {
+ul li {
+    /*  display: flex;*/
+    display: inline-block;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+.nav-bar ul li a:hover {
+    background-color: #4c03df
+        /*#2e20c4*/
+    ;
+}
+
+/*.nav-bar::after {
     content: '';
     width: 100%;
     height: 1px;
@@ -92,10 +107,10 @@ ul {
     transition: transform .25s ease;
 }
 
-.link:hover::after {
+.nav-bar:hover::after {
     transform: scaleX(1);
 }
-
+*/
 .neon:hover {
     background: #ba90ee;
     box-shadow: 0 0 5px #96deff, 0 0 25px #6ac9f5, 0 0 50px #35b6f1, 0 0 200px #1182b6;
@@ -276,7 +291,7 @@ a {
 
 .pieDePagina {
     grid-area: footer;
-    background-color: #ba90ee;
+    background-color: #ba90ee48;
     position: relative;
 }
 
@@ -479,11 +494,20 @@ textarea {
 
 @media screen and (max-width:768px) {
 
-    .encabezado nav {
+    .nav-bar {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    ul li {
         display: flex;
         flex-direction: column;
-        font-size: 2rem;
     }
+
+    ul li a {
+        padding: 5px;
+    }
+
 
     .encabezado p {
         margin-bottom: 2%;
@@ -501,9 +525,8 @@ textarea {
         font-weight: 900;
         width: 80%;
         left: 20%;
-        
-    }
 
+    }
 
     .videosFila {
         display: flex;
@@ -632,10 +655,22 @@ textarea {
 /*Adaptado a tablets*/
 @media screen and (min-width: 769px) and (max-width:1024px) {
 
-    .encabezado nav {
+    .nav-bar {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    ul li {
         display: flex;
         flex-direction: column;
-        font-size: 3rem;
+    }
+
+    ul li a {
+        padding: 5px;
+    }
+
+    .encabezado p {
+        margin-bottom: 2%;
     }
 
     .imagenParrafo {
@@ -644,12 +679,13 @@ textarea {
     }
 
     .imagenParrafo p {
-        font-size: 1.5em;
-        line-height: 1rem;
-        letter-spacing: 0.2rem;
+        font-size: 1em;
+        line-height: 0.7rem;
+        letter-spacing: 0rem;
         font-weight: 900;
         width: 80%;
         left: 20%;
+
     }
 
     .videosFila {
