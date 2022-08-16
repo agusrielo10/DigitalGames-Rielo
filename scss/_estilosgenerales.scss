@@ -1,0 +1,62 @@
+h1 {
+    color: $color-fuente;
+    font-style: $estilo-fuente-primario;
+    font-weight: $estilo-negrita;
+    font-size: $fuente-normal;
+    text-align: center;
+    font-family: $tipografia-general;
+}
+
+h2 {
+    color: $color-fuente;
+    font-style: $estilo-fuente-primario;
+    font-weight: $estilo-suave;
+    font-size: $fuente-chica;
+    text-align: center;
+    font-family: $tipografia-alternativa;
+}
+
+h3 {
+    color: $color-fuente;
+    font-style: $estilo-fuente-primario;
+    font-weight: $estilo-negrita-suave;
+    font-size: $fuente-mediana;
+    text-align: center;
+    font-family: $tipografia-alternativa;
+}
+
+h4 {
+    color: $color-fuente;
+    font-style: $estilo-fuente-normal;
+    font-weight: $estilo-suave;
+    font-size: $fuente-muy-chica;
+    text-align: left;
+    font-family: $tipografia-alternativa;
+}
+
+.animate__bounce {
+    animation-iteration-count: infinite
+}
+
+ol {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+
+    &:hover {
+        background-color: #4c03df;
+        ;
+    }
+}
+
+
+.neon:hover {
+    background: #ba90ee;
+    box-shadow: 0 0 5px #96deff, 0 0 25px #6ac9f5, 0 0 50px #35b6f1, 0 0 200px #1182b6;
+}

@@ -1,0 +1,119 @@
+@media screen and (min-width: 769px) and (max-width:1024px) {
+
+    ul li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul li a {
+        padding: 5px;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+
+    .imagenParrafo {
+        height: 40vh;
+        width: 100%;
+    }
+
+    .imagenParrafo p {
+        font-size: 1em;
+        line-height: 0.7rem;
+        letter-spacing: 0rem;
+        font-weight: 900;
+        width: 80%;
+        left: 20%;
+
+    }
+
+    .videosFila {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagenesLinea1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagenesPsLinea {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagenesPsLinea img {
+        width: 50vw;
+        height: 60vh;
+    }
+
+    .fotoPs img {
+        width: 50vw;
+        height: 60vh;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .genero {
+        font-size: medium;
+        letter-spacing: 0.2rem;
+    }
+
+    .titulo {
+        font-size: medium;
+        letter-spacing: 0.15rem;
+    }
+
+    .precio {
+        font-size: medium;
+        letter-spacing: 0.15rem;
+    }
+
+    .tabla {
+        margin-left: 9%;
+    }
+
+    .centrarMapa iframe {
+        width: 100%;
+    }
+
+
+    .galeria-contenedor1 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            'img5 img3 img3'
+            'img5 img1 img4'
+            'img5 img1 img1'
+            'img2 img2 img8'
+            'img2 img2 img8'
+            'img7 img7 img7';
+    }
+
+    .galeria-contenedor2 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            'img1 img1 img8'
+            'img2 img2 img8'
+            'img2 img2 img3'
+            'img6 img4 img4'
+            'img7 img4 img4'
+            'img7 img5 img5';
+    }
+
+    .galeria-contenedor3 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            'img8 img8 img7'
+            'img2 img2 img7'
+            'img2 img2 img1'
+            'img4 img4 img6'
+            'img3 img5 img5'
+            'img3 img5 img5';
+    }
+}

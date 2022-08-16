@@ -1,0 +1,85 @@
+.container__grid {
+    background-color: #9b5de5;
+    background-image: radial-gradient(circle, #2e20c4, #4b26cb, #612dd3, #7534da, #873ce1);
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+
+    .encabezado {
+        grid-area: "header";
+
+        .nav-bar {
+            font-size: $fuente-normal;
+            font-family: $tipografia-general;
+            font-style: $estilo-fuente-oblicua;
+            color: $color-fuente;
+            background-color: $color-fondo;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 2%;
+            position: relative;
+
+            .nav-icon {
+                width: 35vh;
+
+                ul {
+                    display: flex;
+
+                    a {
+                        padding-right: 3%;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.pieDePagina {
+    grid-area: footer;
+    background-color: $color-fondo;
+    position: relative;
+
+    p {
+        margin-top: 20px;
+    }
+}
+
+.whatsapp {
+    display: inline-block;
+    position: fixed;
+    bottom: 1px;
+    right: 10px;
+    font-size: 44px;
+}
+
+.fa-square-twitter {
+    color: #00aced;
+    animation-delay: 2s;
+}
+
+.fa-facebook {
+    color: #1877f2;
+    animation-delay: 4s;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon {
+    display: inline-block;
+    font-size: 44px;
+    animation: float 4s ease-in-out infinite;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
