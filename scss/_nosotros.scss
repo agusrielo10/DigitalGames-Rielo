@@ -1,0 +1,27 @@
+.centrarDondeEstamos {
+    text-align: center;
+    margin: 2%;
+}
+
+.centrarMapa {
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 3%;
+}
+
+.parrafoNosotros {
+    margin: 2%;
+    font-size: $fuente-mediana;
+}
+
+.formulario {
+    padding: 3%;
+
+    .botonFormulario {
+        margin-top: 1%;
+
+        textarea {
+            min-height: 150px;
+        }
+    }
+}

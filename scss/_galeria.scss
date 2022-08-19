@@ -1,0 +1,187 @@
+.galeria-contenedor1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 300px;
+    padding: 0.75%;
+    grid-gap: 0.75%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    grid-template-areas:
+        'img5 img2 img2 img4'
+        'img5 img2 img2 img4'
+        'img8 img8 img3 img1'
+        'img6 img7 img7 img1'
+    ;
+
+    .galeria_item__ps5 {
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+    }
+}
+
+.galeria_item__ps5::before {
+    content: "PS5";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #17afd43d;
+    opacity: value;
+    transform: scale(0);
+    transition: transform 2s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $fuente-chica;
+    font-family: $tipografia-alternativa;
+    font-style: $estilo-fuente-inherit;
+}
+
+.galeria_item__ps5:hover::before {
+    transform: scale(1) rotate(360deg);
+}
+
+.galeria-contenedor2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 300px;
+    padding: 0.75%;
+    grid-gap: 0.75%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    grid-template-areas:
+        'img1 img1 img2 img2'
+        'img4 img3 img2 img2'
+        'img5 img5 img7 img8'
+        'img6 img6 img7 img8'
+    ;
+
+    .galeria_item__ps4 {
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+    }
+}
+
+.galeria_item__ps4::before {
+    content: "PS4";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0c2f6460;
+    opacity: value;
+    transform: scale(0);
+    transition: transform 2s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $fuente-chica;
+    font-family: $tipografia-alternativa;
+    font-style: $estilo-fuente-inherit;
+}
+
+.galeria_item__ps4:hover::before {
+    transform: scale(1) rotate(360deg);
+}
+
+
+.galeria-contenedor3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 300px;
+    padding: 0.75%;
+    grid-gap: 0.75%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    grid-template-areas:
+        'img1 img1 img2 img2'
+        'img8 img8 img2 img2'
+        'img3 img4 img6 img7'
+        'img3 img5 img6 img7'
+    ;
+
+    .galeria_item__ps3 {
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+    }
+}
+
+.galeria_item__ps3::before {
+    content: "PS3";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0c2f6460;
+    opacity: value;
+    transform: scale(0);
+    transition: transform 2s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $fuente-chica;
+    font-family: $tipografia-alternativa;
+    font-style: $estilo-fuente-inherit;
+}
+
+.galeria_item__ps3:hover::before {
+    transform: scale(1) rotate(360deg);
+}
+
+.galeria_imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.galeria_titulo {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    margin: 0;
+
+}
+
+.galeria_item--img1 {
+    grid-area: img1;
+}
+
+.galeria_item--img2 {
+    grid-area: img2;
+}
+
+.galeria_item--img3 {
+    grid-area: img3;
+}
+
+.galeria_item--img4 {
+    grid-area: img4;
+}
+
+.galeria_item--img5 {
+    grid-area: img5;
+}
+
+.galeria_item--img6 {
+    grid-area: img6;
+}
+
+.galeria_item--img7 {
+    grid-area: img7;
+}
+
+.galeria_item--img8 {
+    grid-area: img8;
+}
