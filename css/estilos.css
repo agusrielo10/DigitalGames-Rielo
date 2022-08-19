@@ -415,13 +415,13 @@ ul li {
     font-size: 1rem;
     font-weight: bolder; }
   .imagenParrafo {
-    height: 40vh;
+    height: 35vh;
     width: 100%; }
   .imagenParrafo1 {
-    height: 40vh;
+    height: 35vh;
     width: 100%; }
   .imagenParrafo2 {
-    height: 40vh;
+    height: 35vh;
     width: 100%; }
   .parrafoImagen1 {
     font-size: 0.7em;
@@ -429,38 +429,31 @@ ul li {
     letter-spacing: 0rem;
     font-weight: 900;
     width: 80%;
-    left: 20%; }
+    left: 17%; }
   .parrafoImagen2 {
     font-size: 0.7em;
     line-height: 0.7rem;
     letter-spacing: 0rem;
     font-weight: 900;
     width: 80%;
-    left: 5%; }
-  .videosFila {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    align-items: center; }
+    left: 3%; }
   .imagenesLinea1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     column-gap: 00.5%; }
+    .imagenesLinea1 .fotoPs img {
+      width: 60vw;
+      height: 50vh; }
   .imagenesPsLinea {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  .imagenesPsLinea img {
-    width: 60vw;
-    height: 50vh; }
-  .fotoPs img {
-    width: 60vw;
-    height: 50vh;
-    display: flex;
-    justify-content: space-around; }
+    .imagenesPsLinea img {
+      width: 60vw;
+      height: 50vh; }
   .genero {
     font-size: small;
     letter-spacing: 0.15rem; }
