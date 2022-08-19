@@ -13,17 +13,29 @@
 
 
     .imagenParrafo {
+<<<<<<< HEAD
         height: 40vh;
+=======
+        height: 35vh;
+>>>>>>> cambios-generales
         width: 100%;
     }
 
     .imagenParrafo1 {
+<<<<<<< HEAD
         height: 40vh;
+=======
+        height: 35vh;
+>>>>>>> cambios-generales
         width: 100%;
     }
 
     .imagenParrafo2 {
+<<<<<<< HEAD
         height: 40vh;
+=======
+        height: 35vh;
+>>>>>>> cambios-generales
         width: 100%;
     }
 
@@ -34,7 +46,11 @@
         letter-spacing: 0rem;
         font-weight: 900;
         width: 80%;
+<<<<<<< HEAD
         left: 20%;
+=======
+        left: 17%;
+>>>>>>> cambios-generales
     }
 
     .parrafoImagen2 {
@@ -43,6 +59,7 @@
         letter-spacing: 0rem;
         font-weight: 900;
         width: 80%;
+<<<<<<< HEAD
         left: 5%;
     }
 
@@ -51,6 +68,9 @@
         flex-flow: column;
         justify-content: space-around;
         align-items: center;
+=======
+        left: 3%;
+>>>>>>> cambios-generales
     }
 
     .imagenesLinea1 {
@@ -59,13 +79,29 @@
         justify-content: center;
         align-items: center;
         column-gap: 00.5%;
+<<<<<<< HEAD
     }
 
+=======
+
+        .fotoPs {
+
+            img {
+                width: 60vw;
+                height: 50vh;
+            }
+        }
+    }
+
+   
+
+>>>>>>> cambios-generales
     .imagenesPsLinea {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+<<<<<<< HEAD
     }
 
 
@@ -79,6 +115,13 @@
         height: 50vh;
         display: flex;
         justify-content: space-around;
+=======
+
+        img {
+            width: 60vw;
+            height: 50vh;
+        }
+>>>>>>> cambios-generales
     }
 
     .genero {
@@ -161,4 +204,8 @@
             'img3 img6'
             'img1 img7';
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> cambios-generales
