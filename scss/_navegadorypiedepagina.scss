@@ -13,10 +13,10 @@
         grid-area: "header";
 
         .nav-bar {
-            font-size: $fuente-normal;
+            font-size: map-get($tamañoFuente, normalita);
             font-family: $tipografia-general;
-            font-style: $estilo-fuente-oblicua;
-            color: $color-fuente;
+            font-style: map-get($estiloFuente, oblicua);
+            color: map-get($colorFuente, negra);
             background-color: $color-fondo;
             margin: auto;
             text-align: center;

@@ -11,7 +11,7 @@
 
 .parrafoNosotros {
     margin: 2%;
-    font-size: $fuente-mediana;
+    font-size: map-get($tamañoFuente, mediana);
 }
 
 .formulario {

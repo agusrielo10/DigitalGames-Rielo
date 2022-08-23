@@ -1,0 +1,18 @@
+CAMBIOS APLICADOS PARA EL DESAFIO SASS II
+- Uso de maps en todas las hojas
+- Uso de extend en index.scss en la clase parrafoImagen2
+- Uso de mixin en galeria.scss
+
+CAMBIOS APLICADOS PARA EL DESAFIO SEO
+- Cambie el Keyword del Inicio
+- Para las imagenes no fue necesario utilizar la propiedad scrset por las dudas adjunto un ejemplo de cuando lo quise
+  utilizar, pero las imagenes pesaban aun mas.
+  Ejemplo:                   srcset="./imagenes/bioshock-ps3-portada-celu.jpg 640px,
+                                     ./imagenes/bioshock-ps3-portada-tablet.jpg 1280px,
+                                     ./imagenes/bioshock-ps3-portada.jpg 1920px"
+                             sizes="(max-width: 720px) 640px,
+                                    (max-width: 1024px) 1280px,
+                                    1920px"  
+ 				     src="./imagenes/bioshock-ps3-portada.jpg" alt="Juego PS3 bioshock"> 
+- No encontre mucho mas que aplicar en esta entrega, creo que el resto de las condiciones se cumplian con anterioridad
+            

@@ -1,7 +1,5 @@
 .galeria-contenedor1 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 300px;
+    @include gird-colums-row;
     padding: 0.75%;
     grid-gap: 0.75%;
     margin-top: 1%;
@@ -14,9 +12,7 @@
     ;
 
     .galeria_item__ps5 {
-        position: relative;
-        cursor: pointer;
-        overflow: hidden;
+        @include position-cursor-overflow;
     }
 }
 
@@ -35,9 +31,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: $fuente-chica;
+    font-size: map-get($tamañoFuente, chica);
     font-family: $tipografia-alternativa;
-    font-style: $estilo-fuente-inherit;
+    font-style: map-get($estiloFuente, inherita);
 }
 
 .galeria_item__ps5:hover::before {
@@ -45,9 +41,7 @@
 }
 
 .galeria-contenedor2 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 300px;
+    @include gird-colums-row;
     padding: 0.75%;
     grid-gap: 0.75%;
     margin-top: 1%;
@@ -60,9 +54,7 @@
     ;
 
     .galeria_item__ps4 {
-        position: relative;
-        cursor: pointer;
-        overflow: hidden;
+        @include position-cursor-overflow;
     }
 }
 
@@ -81,9 +73,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: $fuente-chica;
+    font-size: map-get($tamañoFuente, chica);
     font-family: $tipografia-alternativa;
-    font-style: $estilo-fuente-inherit;
+    font-style: map-get($estiloFuente, inherita);
 }
 
 .galeria_item__ps4:hover::before {
@@ -92,9 +84,7 @@
 
 
 .galeria-contenedor3 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 300px;
+    @include gird-colums-row;
     padding: 0.75%;
     grid-gap: 0.75%;
     margin-top: 1%;
@@ -107,9 +97,7 @@
     ;
 
     .galeria_item__ps3 {
-        position: relative;
-        cursor: pointer;
-        overflow: hidden;
+        @include position-cursor-overflow;
     }
 }
 
@@ -128,9 +116,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: $fuente-chica;
+    font-size: map-get($tamañoFuente, chica);
     font-family: $tipografia-alternativa;
-    font-style: $estilo-fuente-inherit;
+    font-style: map-get($estiloFuente, inherita);
 }
 
 .galeria_item__ps3:hover::before {
@@ -141,6 +129,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    box-shadow: 0px 0px 1px #000;
+    border-radius: 10px;
 
 }
 
@@ -151,6 +141,7 @@
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
     width: 100%;
     margin: 0;
+    border-radius: 10px;
 
 }
 

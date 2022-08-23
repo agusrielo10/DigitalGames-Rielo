@@ -34,11 +34,11 @@
 
 
 .parrafoImagen1 {
-    font-style: $estilo-fuente-primario;
-    font-weight: $estilo-negrita-suave;
-    font-size: $fuente-muy-chica;
+    font-style: map-get($estiloFuente, italica);
+    font-weight: map-get($pesoFuente, negrita);
+    font-size: map-get($tamañoFuente, muy-chica);
     font-family: $tipografia-alternativa;
-    color: $color-fuente;
+    color: map-get($colorFuente, negra);
     background-color: rgba(255, 255, 255, 0.336);
     line-height: 1.3rem;
     letter-spacing: 0.2rem;
@@ -49,16 +49,7 @@
 }
 
 .parrafoImagen2 {
-    font-style: $estilo-fuente-primario;
-    font-weight: $estilo-negrita-suave;
-    font-size: $fuente-muy-chica;
-    font-family: $tipografia-alternativa;
-    color: $color-fuente;
-    background-color: rgba(255, 255, 255, 0.336);
-    line-height: 1.3rem;
-    letter-spacing: 0.2rem;
-    width: 40%;
-    position: relative;
+   @extend .parrafoImagen1;
     left: 10%;
     top: 22%;
 }
@@ -85,39 +76,40 @@
 
 .genero {
     margin-top: 2%;
-    font-style: $estilo-fuente-oblicua;
-    font-weight: 900;
-    font-size: $fuente-muy-chica;
+    font-style: map-get($estiloFuente, oblicua);
+    font-weight: map-get($pesoFuente, novecientos);
+    font-size: map-get($tamañoFuente, muy-chica);
     text-align: left;
     font-family: $tipografia-alternativa;
-    color: $color-secundario;
+    color: map-get($colorFuente, gris);
     letter-spacing: 0.3rem;
     text-transform: uppercase;
 }
 
 .titulo {
-    font-style: $estilo-fuente-oblicua;
-    font-weight: 800;
-    font-size: $fuente-muy-chica;
+    font-style: map-get($estiloFuente, oblicua);
+    font-weight: map-get($pesoFuente, ochocientos);
+    font-size: map-get($tamañoFuente, muy-chica);
     text-align: left;
     font-family: $tipografia-alternativa;
-    color: $color-secundario;
+    color: map-get($colorFuente, gris);
     letter-spacing: 0.1rem;
 
 }
 
 .precio {
-    font-style: $estilo-fuente-inherit;
-    font-weight: 800;
-    font-size: $fuente-muy-chica;
+    font-style: map-get($estiloFuente, inherita);
+    font-weight: map-get($pesoFuente, ochocientos);
+    font-size: map-get($tamañoFuente, muy-chica);
     text-align: left;
     font-family: $tipografia-alternativa;
-    color: $color-fuente;
+    color: map-get($colorFuente, negra);
     letter-spacing: 0.2rem;
 }
 
 .table {
-    font-style: $estilo-fuente-normal;
+    font-style: map-get($estiloFuente, normalita);
     font-family: $tipografia-alternativa;
-    color: $color-fuente;
+    color: map-get($colorFuente, negra);
 }
+

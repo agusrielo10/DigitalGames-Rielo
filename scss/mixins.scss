@@ -1,0 +1,13 @@
+@mixin gird-colums-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 300px;
+}
+
+@mixin position-cursor-overflow {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden; 
+}
+
+    

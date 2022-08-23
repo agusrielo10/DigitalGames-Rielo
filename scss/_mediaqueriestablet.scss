@@ -7,31 +7,42 @@
 
     ul li a {
         padding: 5px;
-        font-size: 2rem;
+        font-size: 1rem;
         font-weight: bolder;
     }
-
 
     .imagenParrafo {
         height: 40vh;
         width: 100%;
     }
 
-    .imagenParrafo p {
-        font-size: 1em;
-        line-height: 0.7rem;
-        letter-spacing: 0rem;
-        font-weight: 900;
-        width: 80%;
-        left: 20%;
-
+    .imagenParrafo1 {
+        height: 40vh;
+        width: 100%;
     }
 
-    .videosFila {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+    .imagenParrafo2 {
+        height: 40vh;
+        width: 100%;
+    }
+
+    .parrafoImagen1 {
+        font-size: 1em;
+        line-height: 1rem;
+        letter-spacing: 0rem;
+        font-weight: 700;
+        width: 80%;
+        left: 20%;
+        left: 17%;
+    }
+
+    .parrafoImagen2 {
+        font-size: 1em;
+        line-height: 1rem;
+        letter-spacing: 0rem;
+        font-weight: 700;
+        width: 80%;
+        left: 5%;
     }
 
     .imagenesLinea1 {
@@ -39,53 +50,30 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        column-gap: 00.5%;
+
+        .fotoPs img {
+            width: 60vw;
+            height: 50vh;
+        }
     }
 
     .imagenesPsLinea {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 
-    .imagenesPsLinea img {
-        width: 50vw;
-        height: 60vh;
+        img {
+            width: 60vw;
+            height: 50vh;
+        }
     }
-
-    .fotoPs img {
-        width: 50vw;
-        height: 60vh;
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .genero {
-        font-size: medium;
-        letter-spacing: 0.2rem;
-    }
-
-    .titulo {
-        font-size: medium;
-        letter-spacing: 0.15rem;
-    }
-
-    .precio {
-        font-size: medium;
-        letter-spacing: 0.15rem;
-    }
-
-    .tabla {
-        margin-left: 9%;
-    }
-
-    .centrarMapa iframe {
-        width: 100%;
-    }
-
 
     .galeria-contenedor1 {
         grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 150px;
+        width: 100%;
+        padding: 0.5%;
+        grid-gap: 0.5%;
+        margin-top: 0.5%;
+        margin-bottom: 3%;
         grid-template-areas:
             'img5 img3 img3'
             'img5 img1 img4'
@@ -97,6 +85,12 @@
 
     .galeria-contenedor2 {
         grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 150px;
+        width: 100%;
+        padding: 0.5%;
+        grid-gap: 0.5%;
+        margin-top: 0.5%;
+        margin-bottom: 4.2%;
         grid-template-areas:
             'img1 img1 img8'
             'img2 img2 img8'
@@ -108,6 +102,12 @@
 
     .galeria-contenedor3 {
         grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 150px;
+        width: 100%;
+        padding: 0.5%;
+        grid-gap: 0.5%;
+        margin-top: 0.5%;
+        margin-bottom: 5%;
         grid-template-areas:
             'img8 img8 img7'
             'img2 img2 img7'
