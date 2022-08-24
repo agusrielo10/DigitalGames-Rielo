@@ -16,6 +16,7 @@ h1 {
 h2 {
   color: black;
   font-style: italic;
+  font-weight: bolder;
   font-size: 1.5rem;
   text-align: center;
   font-family: "Roboto", sans-serif; }
@@ -170,7 +171,8 @@ ul li {
 .table {
   font-style: normal;
   font-family: "Roboto", sans-serif;
-  color: black; }
+  color: black;
+  font-weight: 900; }
 
 .imagenesPsLinea {
   padding-top: 3%;
@@ -202,7 +204,7 @@ ul li {
       margin-bottom: 2%;
       position: relative; }
       .container__grid .encabezado .nav-bar .nav-icon {
-        width: 35vh; }
+        width: 15vw; }
         .container__grid .encabezado .nav-bar .nav-icon ul {
           display: flex; }
           .container__grid .encabezado .nav-bar .nav-icon ul a {
@@ -397,7 +399,7 @@ ul li {
   ul li a {
     padding: 5px;
     font-size: 1rem;
-    font-weight: bolder; }
+    font-weight: bold; }
   h1 {
     margin-left: 5%;
     width: 330px; }
@@ -437,24 +439,9 @@ ul li {
     .imagenesLinea1 .fotoPs img {
       width: 90vw;
       height: 60vh; }
-  .responsiveContent {
-    position: relative;
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 52.6%;
-    margin-bottom: 10px; }
-    .responsiveContent iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%; }
-  .table {
-    font-size: 0.75rem;
-    font-weight: 900; }
   .imagenesPsLinea img {
-    width: 90vw;
-    height: 60vh; }
+    width: 85vw;
+    height: 65vh; }
   .centrarMapa iframe {
     height: 200%;
     width: 80%; }
@@ -486,6 +473,10 @@ ul li {
     margin-bottom: 12%;
     grid-template-areas: 'img8 img8' 'img2 img2' 'img2 img2' 'img4 img4' 'img5 img5' 'img3 img6' 'img3 img6' 'img1 img7'; } }
 
+.table {
+  font-size: 0.75rem;
+  font-weight: 900; }
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   ul li {
     display: flex;
@@ -493,7 +484,7 @@ ul li {
   ul li a {
     padding: 5px;
     font-size: 3rem;
-    font-weight: bolder; }
+    font-weight: bold; }
   .imagenParrafo {
     background-image: url(../imagenes/fifa22wallpaper.jpg);
     height: 30vh; }
@@ -526,16 +517,18 @@ ul li {
     column-gap: 00.5%; }
     .imagenesLinea1 .fotoPs img {
       width: 80vw;
-      height: 60vh; }
+      height: 90vh; }
   .imagenesPsLinea img {
     width: 80vw;
-    height: 60vh; }
+    height: 90vh; }
   .responsiveContent {
     position: relative;
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 52.6%;
-    margin-bottom: 10px; }
+    width: 400px;
+    height: 200px;
+    /* height: 0;
+        overflow: hidden;
+        padding-bottom: 52.6%;
+        margin-bottom: 10px;*/ }
     .responsiveContent iframe {
       position: absolute;
       top: 0;

@@ -25,10 +25,11 @@ $estiloFuente: (
     inherit: inherit
 );
 
-$pesoFuente: (
+$pesoFuente :(
     negrita-fuerte: bolder,
     negrita: bold,
     sueve: lighter,
     novecientos: 900,
-    ochocientos: 800
+    ochocientos: 800,
+    setecientos: 700
 );

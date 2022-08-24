@@ -1,7 +1,7 @@
 h1 {
     color: map-get($colorFuente, negra);
     font-style: map-get($estiloFuente, italica);
-    font-weight: map-get($pesoFuente, negrita-fuerte);
+    font-weight: bolder;
     font-size: map-get($tamañoFuente, normalita);
     text-align: center;
     font-family: $tipografia-general;
@@ -10,7 +10,7 @@ h1 {
 h2 {
     color: map-get($colorFuente, negra);
     font-style: map-get($estiloFuente, italica);
-    font-weight: map-get($pesoFuente, suave);
+    font-weight: map-get($pesoFuente, negrita-fuerte);
     font-size: map-get($tamañoFuente, chica);
     text-align: center;
     font-family: $tipografia-alternativa;

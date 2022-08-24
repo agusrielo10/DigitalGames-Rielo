@@ -8,7 +8,7 @@
     ul li a {
         padding: 5px;
         font-size: 3rem;
-        font-weight: bolder;
+        font-weight: map-get($pesoFuente, negrita);
     }
 
     .imagenParrafo {
@@ -30,7 +30,7 @@
         font-size: 1em;
         line-height: 1rem;
         letter-spacing: 0rem;
-        font-weight: 700;
+        font-weight: map-get($pesoFuente, setecientos);
         width: 80%;
         left: 20%;
         left: 17%;
@@ -40,7 +40,7 @@
         font-size: 1em;
         line-height: 1rem;
         letter-spacing: 0rem;
-        font-weight: 700;
+        font-weight: map-get($pesoFuente, setecientos);
         width: 80%;
         left: 5%;
     }
