@@ -112,5 +112,6 @@
     font-style: map-get($estiloFuente, normalita);
     font-family: $tipografia-alternativa;
     color: map-get($colorFuente, negra);
+    font-weight: map-get ($pesoFuente, novecientos);
 }
 

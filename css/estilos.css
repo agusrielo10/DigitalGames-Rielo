@@ -492,23 +492,17 @@ ul li {
     flex-direction: column; }
   ul li a {
     padding: 5px;
-    font-size: 1rem;
+    font-size: 3rem;
     font-weight: bolder; }
   .imagenParrafo {
-    background-image: url(../imagenes/fifa22wallpaper-mq.jpg);
-    height: 25vh;
-    width: 50%;
-    display: none; }
+    background-image: url(../imagenes/fifa22wallpaper.jpg);
+    height: 30vh; }
   .imagenParrafo1 {
-    background-image: url(../imagenes/gta5-walpapper-mq.jpg);
-    height: 25vh;
-    width: 50%;
-    display: none; }
+    background-image: url(../imagenes/gta5-walpapper.jpg);
+    height: 30vh; }
   .imagenParrafo2 {
-    background-image: url(../imagenes/granturismo7wallpaper-mq.jpg);
-    height: 25vh;
-    width: 50%;
-    display: none; }
+    background-image: url(../imagenes/granturismo7wallpaper.jpg);
+    height: 30vh; }
   .parrafoImagen1, .parrafoImagen2 {
     font-size: 1em;
     line-height: 1rem;
@@ -531,11 +525,23 @@ ul li {
     align-items: center;
     column-gap: 00.5%; }
     .imagenesLinea1 .fotoPs img {
-      width: 60vw;
-      height: 50vh; }
+      width: 80vw;
+      height: 60vh; }
   .imagenesPsLinea img {
-    width: 60vw;
-    height: 50vh; }
+    width: 80vw;
+    height: 60vh; }
+  .responsiveContent {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 52.6%;
+    margin-bottom: 10px; }
+    .responsiveContent iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
   .galeria-contenedor1 {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 150px;
