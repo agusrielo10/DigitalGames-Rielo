@@ -1,5 +1,5 @@
 .galeria-contenedor1 {
-    @include gird-colums-row;
+    @include gird-colums-row (4, 300px);
     padding: 0.75%;
     grid-gap: 0.75%;
     margin-top: 1%;
@@ -12,7 +12,7 @@
     ;
 
     .galeria_item__ps5 {
-        @include position-cursor-overflow;
+        @include position-cursor-overflow (relative, pointer, hidden);
     }
 }
 
@@ -41,7 +41,7 @@
 }
 
 .galeria-contenedor2 {
-    @include gird-colums-row;
+    @include gird-colums-row (4, 300px);
     padding: 0.75%;
     grid-gap: 0.75%;
     margin-top: 1%;
@@ -54,7 +54,7 @@
     ;
 
     .galeria_item__ps4 {
-        @include position-cursor-overflow;
+        @include position-cursor-overflow (relative, pointer, hidden);
     }
 }
 
@@ -84,7 +84,7 @@
 
 
 .galeria-contenedor3 {
-    @include gird-colums-row;
+    @include gird-colums-row (4, 300px);
     padding: 0.75%;
     grid-gap: 0.75%;
     margin-top: 1%;
@@ -97,7 +97,7 @@
     ;
 
     .galeria_item__ps3 {
-        @include position-cursor-overflow;
+        @include position-cursor-overflow (relative, pointer, hidden);
     }
 }
 
