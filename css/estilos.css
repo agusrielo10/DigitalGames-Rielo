@@ -399,11 +399,11 @@ ul li {
     font-size: 1rem;
     font-weight: bolder; }
   h1 {
-    margin-left: 10%;
-    width: 350px; }
+    margin-left: 5%;
+    width: 330px; }
   h2 {
-    margin-left: 10%;
-    width: 350px; }
+    margin-left: 5%;
+    width: 330px; }
   .imagenParrafo {
     background-image: url(../imagenes/fifa22wallpaper-mq.jpg);
     height: 30vh; }
@@ -435,25 +435,26 @@ ul li {
     align-items: center;
     column-gap: 00.5%; }
     .imagenesLinea1 .fotoPs img {
-      width: 85vw;
-      height: 65vh;
-      object-fit: cover; }
+      width: 90vw;
+      height: 60vh; }
   .responsiveContent {
     position: relative;
     height: 0;
     overflow: hidden;
-    padding-bottom: 56.2%;
-    margin-bottom: 20px; }
+    padding-bottom: 52.6%;
+    margin-bottom: 10px; }
     .responsiveContent iframe {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%; }
+  .table {
+    font-size: 0.75rem;
+    font-weight: 900; }
   .imagenesPsLinea img {
-    width: 85vw;
-    height: 65vh;
-    object-fit: cover; }
+    width: 90vw;
+    height: 60vh; }
   .centrarMapa iframe {
     height: 200%;
     width: 80%; }
