@@ -134,11 +134,15 @@ ul li {
     display: flex;
     flex-direction: column; }
     .imagenesLinea1 .fotoPs img {
-      width: 24vw;
-      height: 70vh;
+      width: 22vw;
+      height: 68vh;
       object-fit: cover;
       box-shadow: 0px 0px 25px #000;
-      border-radius: 10px; }
+      border-radius: 10px;
+      transition: 0.5s;
+      cursor: pointer; }
+      .imagenesLinea1 .fotoPs img:hover {
+        transform: scale(1.2); }
 
 .genero {
   margin-top: 2%;
@@ -147,7 +151,7 @@ ul li {
   font-size: 1rem;
   text-align: left;
   font-family: "Roboto", sans-serif;
-  color: #292828;
+  color: white;
   letter-spacing: 0.3rem;
   text-transform: uppercase; }
 
@@ -157,7 +161,7 @@ ul li {
   font-size: 1rem;
   text-align: left;
   font-family: "Roboto", sans-serif;
-  color: #292828;
+  color: white;
   letter-spacing: 0.1rem; }
 
 .precio {
@@ -165,7 +169,7 @@ ul li {
   font-size: 1rem;
   text-align: left;
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: white;
   letter-spacing: 0.2rem; }
 
 .table {
@@ -178,11 +182,15 @@ ul li {
   padding-top: 3%;
   padding-bottom: 3%; }
   .imagenesPsLinea img {
-    width: 23vw;
+    width: 22vw;
     height: 68vh;
     object-fit: cover;
     box-shadow: 0px 0px 25px #000;
-    border-radius: 10px; }
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer; }
+    .imagenesPsLinea img:hover {
+      transform: scale(1.2); }
 
 .container__grid {
   background-color: #9b5de5;

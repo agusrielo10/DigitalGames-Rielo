@@ -66,11 +66,17 @@
         flex-direction: column;
 
         img {
-            width: 24vw;
-            height: 70vh;
+            width: 22vw;
+            height: 68vh;
             object-fit: cover;
             box-shadow: 0px 0px 25px #000;
-            border-radius: 10px
+            border-radius: 10px;
+            transition: 0.5s;
+            cursor: pointer;
+            
+            &:hover {
+                transform: scale(1.2);
+            }
         }
     }
 }
@@ -82,7 +88,7 @@
     font-size: map-get($tamañoFuente, muy-chica);
     text-align: left;
     font-family: $tipografia-alternativa;
-    color: map-get($colorFuente, gris);
+    color: map-get($colorFuente, blanca);
     letter-spacing: 0.3rem;
     text-transform: uppercase;
 }
@@ -93,7 +99,7 @@
     font-size: map-get($tamañoFuente, muy-chica);
     text-align: left;
     font-family: $tipografia-alternativa;
-    color: map-get($colorFuente, gris);
+    color: map-get($colorFuente, blanca);
     letter-spacing: 0.1rem;
 
 }
@@ -104,7 +110,7 @@
     font-size: map-get($tamañoFuente, muy-chica);
     text-align: left;
     font-family: $tipografia-alternativa;
-    color: map-get($colorFuente, negra);
+    color: map-get($colorFuente, blanca);
     letter-spacing: 0.2rem;
 }
 
