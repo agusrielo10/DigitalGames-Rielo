@@ -165,6 +165,26 @@ ul li {
   margin-top: 5%;
   text-align: center; }
 
+.botonComprar {
+  min-height: 5vh;
+  margin-left: 10px;
+  margin: 10px;
+  background: #fff;
+  border-radius: 10px;
+  border: 3px solid #cad3dc;
+  box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px, rgba(0, 0, 0, 0.1) 10px 10px 10px, rgba(255, 255, 255, 0.5) -8px -8px 15px inset, rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  padding-left: 10px;
+  background-image: url(../imagenes/cart.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  transition: 0.5s; }
+  .botonComprar:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+
 .container__grid {
   background-color: #9b5de5;
   background-image: radial-gradient(circle, #2e20c4, #4b26cb, #612dd3, #7534da, #873ce1);
@@ -381,14 +401,6 @@ ul li {
     padding: 5px;
     font-size: 1rem;
     font-weight: bold; }
-  h1 {
-    margin-left: 5%;
-    width: 330px;
-    text-align: center; }
-  h2 {
-    margin-left: 5%;
-    width: 330px;
-    text-align: center; }
   .imagenParrafo {
     background-image: url(../imagenes/fifa22wallpaper-mq.jpg);
     height: 30vh; }

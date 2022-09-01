@@ -3,3 +3,31 @@
     margin-top: 5%;
     text-align: center;
 }
+
+.botonComprar {
+    min-height: 5vh;
+    margin-left: 10px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 10px;
+    border: 3px solid #cad3dc;
+    box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px,
+        rgba(0, 0, 0, 0.1) 10px 10px 10px,
+        rgba(255, 255, 255, 0.5) -8px -8px 15px inset,
+        rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
+    font-style: map-get($estiloFuente, inherita);
+    border: none;
+    background: transparent;
+    font-weight: map-get($pesoFuente, negrita);
+    padding-left: 10px;
+    background-image: url(../imagenes/cart.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+
+    &:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+
+    }
+}

@@ -10,18 +10,6 @@
         font-weight: map-get($pesoFuente, negrita);
     }
 
-    h1 {
-        margin-left: 5%;
-        width: 330px;
-        text-align: center;
-    }
-
-    h2 {
-        margin-left: 5%;
-        width: 330px;
-        text-align: center;
-    }
-
 
     .imagenParrafo {
         background-image: url(../imagenes/fifa22wallpaper-mq.jpg);
@@ -146,3 +134,4 @@
     font-size: 0.75rem;
     font-weight: map-get($pesoFuente, novecientos);
 }
+
