@@ -49,7 +49,7 @@
 }
 
 .parrafoImagen2 {
-   @extend .parrafoImagen1;
+    @extend .parrafoImagen1;
     left: 10%;
     top: 22%;
 }
@@ -73,9 +73,11 @@
             border-radius: 10px;
             transition: 0.5s;
             cursor: pointer;
-            
+            overflow: hidden;
+
             &:hover {
-                transform: scale(1.2);
+                -webkit-transform: scale(0.9);
+                transform: scale(0.9);
             }
         }
     }
@@ -120,4 +122,3 @@
     color: map-get($colorFuente, negra);
     font-weight: map-get($pesoFuente, novecientos);
 }
-

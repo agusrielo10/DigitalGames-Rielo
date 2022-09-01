@@ -10,9 +10,11 @@
         border-radius: 10px;
         transition: 0.5s;
         cursor: pointer;
+        overflow: hidden;
 
         &:hover {
-            transform: scale(1.2);
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
         }
     }
 

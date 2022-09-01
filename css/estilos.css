@@ -140,9 +140,11 @@ ul li {
       box-shadow: 0px 0px 25px #000;
       border-radius: 10px;
       transition: 0.5s;
-      cursor: pointer; }
+      cursor: pointer;
+      overflow: hidden; }
       .imagenesLinea1 .fotoPs img:hover {
-        transform: scale(1.2); }
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9); }
 
 .genero {
   margin-top: 2%;
@@ -188,9 +190,11 @@ ul li {
     box-shadow: 0px 0px 25px #000;
     border-radius: 10px;
     transition: 0.5s;
-    cursor: pointer; }
+    cursor: pointer;
+    overflow: hidden; }
     .imagenesPsLinea img:hover {
-      transform: scale(1.2); }
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9); }
 
 .container__grid {
   background-color: #9b5de5;
