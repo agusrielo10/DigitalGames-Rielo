@@ -1,21 +1,5 @@
-.imagenesPsLinea {
-    padding-top: 3%;
-    padding-bottom: 3%;
-
-    img {
-        width: 22vw;
-        height: 68vh;
-        object-fit: cover;
-        box-shadow: 0px 0px 25px #000;
-        border-radius: 10px;
-        transition: 0.5s;
-        cursor: pointer;
-        overflow: hidden;
-
-        &:hover {
-            -webkit-transform: scale(0.9);
-            transform: scale(0.9);
-        }
-    }
-
+.precioJuegos {
+    @extend .precio;
+    margin-top: 5%;
+    text-align: center;
 }

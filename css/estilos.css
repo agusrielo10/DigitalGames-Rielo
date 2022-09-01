@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2? familia= Poppins:ital@1 &familia = Roboto & display=swap");
-/*mapas*/
 * {
   margin: 0;
   padding: 0;
@@ -106,24 +105,6 @@ ul li {
   margin-top: 2%;
   margin-bottom: 2%; }
 
-.parrafoImagen1, .parrafoImagen2 {
-  font-style: italic;
-  font-weight: bold;
-  font-size: 1rem;
-  font-family: "Roboto", sans-serif;
-  color: black;
-  background-color: rgba(255, 255, 255, 0.336);
-  line-height: 1.3rem;
-  letter-spacing: 0.2rem;
-  width: 40%;
-  position: relative;
-  left: 50%;
-  top: 22%; }
-
-.parrafoImagen2 {
-  left: 10%;
-  top: 22%; }
-
 .imagenesLinea1 {
   display: flex;
   flex-direction: row;
@@ -166,7 +147,7 @@ ul li {
   color: white;
   letter-spacing: 0.1rem; }
 
-.precio {
+.precio, .precioJuegos {
   font-weight: 800;
   font-size: 1rem;
   text-align: left;
@@ -180,21 +161,9 @@ ul li {
   color: black;
   font-weight: 900; }
 
-.imagenesPsLinea {
-  padding-top: 3%;
-  padding-bottom: 3%; }
-  .imagenesPsLinea img {
-    width: 22vw;
-    height: 68vh;
-    object-fit: cover;
-    box-shadow: 0px 0px 25px #000;
-    border-radius: 10px;
-    transition: 0.5s;
-    cursor: pointer;
-    overflow: hidden; }
-    .imagenesPsLinea img:hover {
-      -webkit-transform: scale(0.9);
-      transform: scale(0.9); }
+.precioJuegos {
+  margin-top: 5%;
+  text-align: center; }
 
 .container__grid {
   background-color: #9b5de5;
@@ -429,7 +398,7 @@ ul li {
   .imagenParrafo2 {
     background-image: url(../imagenes/granturismo7wallpaper-mq.jpg);
     height: 30vh; }
-  .parrafoImagen1, .parrafoImagen2 {
+  .parrafoImagen1 {
     font-size: 0.7em;
     line-height: 0.7rem;
     letter-spacing: 0rem;
@@ -508,7 +477,7 @@ ul li {
   .imagenParrafo2 {
     background-image: url(../imagenes/granturismo7wallpaper.jpg);
     height: 30vh; }
-  .parrafoImagen1, .parrafoImagen2 {
+  .parrafoImagen1 {
     font-size: 1em;
     line-height: 1rem;
     letter-spacing: 0rem;
