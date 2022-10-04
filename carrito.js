@@ -57,7 +57,7 @@ let descuento = HacerDescuento(precioJuego);
 console.log("EL valor del Descuento es $"+descuento);
 
 function mostrarPrecioFinal(precioIngresado, descuentoAplicado){
-    console.log("El precio con descuento aplicado es $"+ (precioIngresado-adescuentoAplicado));
+    alert ("El precio con descuento aplicado es $"+ (precioIngresado-descuentoAplicado));
 }
 
 mostrarPrecioFinal(precioJuego,descuento);
