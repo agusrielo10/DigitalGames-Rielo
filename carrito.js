@@ -89,19 +89,6 @@ console.log("El elegido juego es: " + juegoGodOfWar.juego);
 console.log("El juego es para la consola: " + juegoGodOfWar.consola);
 console.log("El precio del juego para una cuenta primaria es: $" + juegoGodOfWar["precioPrimario"]);
 
-
-// Utilizo una funcion contructora para que el cliente elija un juego y le diga los datos del mismo
-
-function GodOfWar(objetoLiteral){
-    this.juego = objetoLiteral.juego;
-    this.genero = objetoLiteral.genero;
-    this.consola = objetoLiteral.consola;
-    this.precioPrimario = objetoLiteral.precioPrimario;
-    this.precioSecundario = objetoLiteral.precioSecundario;
-}
-
-console.log(prompt("ingrese el juego que desea"))
-
 // Utilizo metodo indexOf del array, para ver si un juego esta en stock
 const listaJuegos = ["Darkasiders II: Deathinitive E","God Of War(2018)","Horizon: Forbidden West","Resident Evil 4 (2016)","FARCRY 4","Resident Evil 8: Village","Untill Down","Street Fighter V: A.Edition","The Amazing Spider-man","Killzone 3","Ghost Recon: Future Soldier","Prototype 2","Uncharted 2: Among Thieves","BioShock Infinite","InFamous 2","The Last of Us"];
 
